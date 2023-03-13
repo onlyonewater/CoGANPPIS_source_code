@@ -84,12 +84,6 @@ def predict(model_file,test_data,window_size,path_dir,threshold):
     if test_data == ['dset448']:
         test_list_file = 'data_cache/dset448_test_list.pkl'
         all_list_file = 'data_cache/dset448_list.pkl'
-    elif test_data == ['dset3389', "dset186", "dset164", "dset72", "dset448"]:
-        # test_list_file = 'data_cache/all_test_minus_1000_dset448_0004_few.pkl'
-        # all_list_file = 'data_cache/all_dset_list_full_minus_1000_0004_few.pkl'
-        
-        all_list_file = 'data_cache/all_dset_list_full_minus_1000_0004_few_0312.pkl'
-        test_list_file = 'data_cache/all_test_minus_1000_dset448_0004_few_0312.pkl'
     else:
         test_list_file = 'data_cache/dset422_test_list.pkl'
         all_list_file = 'data_cache/dset422_list.pkl'
